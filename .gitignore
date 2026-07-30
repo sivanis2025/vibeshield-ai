@@ -1,0 +1,36 @@
+# Virtual environment
+vibe/
+venv/
+.venv/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Uploaded and generated projects
+uploads/*
+scanned_projects/*
+patched_projects/*
+downloads/*
+
+# Keep empty folders in Git if placeholder files are added
+!uploads/.gitkeep
+!scanned_projects/.gitkeep
+!patched_projects/.gitkeep
+!downloads/.gitkeep
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# VS Code and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
